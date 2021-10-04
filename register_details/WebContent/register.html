@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+</head>
+<body>
+<form action="Servlet2" method="post">
+<table>
+<tr>
+<td>Enter UserName:</td>
+<td><input type="text" name="txtUserName" required></td>
+</tr>
+<tr>
+<td>Enter Password:</td>
+<td><input type="password" name="txtUserpassword" required></td>
+</tr>
+<tr>
+<td>Select Gender : </td>
+<td><input type="radio" id="gender" name="gender" value="male" required> Male</td>
+<td><input type="radio" id="gender" name="gender" value="female" required> Female</td>
+</tr>
+<tr>
+<td>Enter Email:</td>
+<td><input type="email" name="txtUseremail" required></td>
+</tr>
+<tr>
+<td>Select Age Group:</td>
+<td>
+	<select name = "dropdown" >
+ 	 	<option value = "0 to 18" selected>0 to 18</option>
+  		<option value = "18 to 45">18 to 45</option>
+  		<option value = "45 to above">45 to above</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="terms" value="terms" required>I accept terms and condition</td>
+</tr>
+<tr>
+<td><center><input type="submit" value="REGISTER" ></center></td></tr>
+</table>
+</form>
+</body>
+</html>
